@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
-//Name: MayaChair.ma
-//Last modified: Wed, Aug 30, 2023 12:16:23 PM
+//Name: MayaChair2.ma
+//Last modified: Wed, Aug 30, 2023 12:17:05 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 22621)";
-fileInfo "UUID" "0D9BDD77-4647-3858-6A63-8698A1D317BF";
+fileInfo "UUID" "50F59E73-4484-614F-9685-D18DC9A84CD4";
 createNode transform -s -n "persp";
 	rename -uid "78072FCF-4386-1B19-F41F-40B1DC722695";
 	setAttr ".v" no;
@@ -802,4 +802,4 @@ connectAttr "pCubeShape10.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape11.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape12.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape13.iog" ":initialShadingGroup.dsm" -na;
-// End of MayaChair.ma
+// End of MayaChair2.ma
